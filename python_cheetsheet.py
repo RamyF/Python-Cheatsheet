@@ -233,5 +233,8 @@ def outer(a, b):
     def inner():
         return a + b + c
     
-print(outer(2, 4)) # returns 8
+# print(outer(2, 4)) returns 8
+
+s = "abceedba"
+print(s[:2] + s[3:])
     
